@@ -1,0 +1,68 @@
+section {
+
+}
+.roja {
+	position: relative;
+	/*height: 450px;*/
+
+	background-color: #EF6B54;
+	background-image: url("../img/grid_background.png");
+	font-family: opensans;
+	text-align: center;
+	padding: 20px 0;
+	color: white;
+}
+h1 {
+	font-size: 33px;
+	margin: 0 auto;
+}
+h2 {
+	font-size: 18px;
+	margin: 0 auto;
+}
+@font-face {
+    font-family: opensans;
+    src: url(../fonts/open-sans-light.ttf);
+}
+.fila {
+	clear: both;
+}
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+.col {
+	width: 45%;
+	display: inline-block;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 7px 10px;
+}
+.colcom {
+	width: 95%;
+	display: inline-block;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	padding: 7px 10px;
+}
+section.roja input {
+	padding: 9px;
+	width: 100%;
+	margin: 0 10px;
+}
+.calendario {
+	width: 520px;
+	margin: 0 488px;
+}
+.mes {
+	font-size: 25px;
+	width: 95%;
+	background-color: #57BBEC;
+	margin: 0 0;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+
